@@ -1,2 +1,4 @@
 .vagrant
 *.tgz
+*.rpm
+*ScaleIO*.txt
