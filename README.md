@@ -3,7 +3,7 @@ vagrant-splunk
 
 # Description
 
-Vagrantfile that creates a single node Splunk Enterprise installation.
+Vagrantfile that creates a single node Splunk Enterprise installation.  Optionally install ScaleIO SDC and connects to vagrant-scaleio instanace found in the repo - https://github.com/emccode/vagrant
 
 # Usage
 
