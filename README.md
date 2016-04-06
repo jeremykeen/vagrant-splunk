@@ -9,8 +9,10 @@ Vagrantfile that creates a single node Splunk Enterprise installation.  Optional
 
 1. Clone the files to your local machine from github
 2. Download the splunk linux install (currently hard-coded to use splunk-6.3.3-f44afce176d0-Linux-x86_64.tgz) and place it in the vagrant directory containing the Vagrantfile
-2. `cd vagrant-splunk`
-4. Run `vagrant up`
+3. Donwload and extract the ScaleIO linux binaries for SDC installation 
+4. modify splunk.sh with Scaleio and and Splunk filename
+5. `cd vagrant-splunk`
+6. Run `vagrant up`
 
 
 ### Launch Splunk
