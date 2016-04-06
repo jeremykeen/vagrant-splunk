@@ -15,3 +15,8 @@ Vagrantfile that creates a single node Splunk Enterprise installation.  Optional
 
 ### Launch Splunk
 After the installation has completed, simply point your web browser to http://192.168.50.21:8000 to login in to Splunk
+
+# Roadmap
+Fully integrated option with ScaleIO deployment.
+
+-ScaleIO deploys, then Splunk with volumes already provisioned and mapped to configure default splunk indexes on ScaleIO volume(s)
