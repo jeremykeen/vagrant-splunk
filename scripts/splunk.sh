@@ -1,7 +1,10 @@
 #!/bin/bash
 # needs work to automate and make more dynaic to allow different versions
 #install scaleio pre-reqs
-yum install numactl libaio -y
+cd /tmp
+curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+python get-pip.py
+yum install numactl libaio python-httplib2 -y
 
 #install ScaleIO SDC - must download and place the ScaleIO binaries in /vagrant/scaleio/
 cd /vagrant/scaleio/ScaleIO_2.0.0_RHEL6_Download
