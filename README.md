@@ -14,6 +14,8 @@ Vagrantfile that creates a single node Splunk Enterprise installation.  Optional
 5. `cd vagrant-splunk`
 6. Run `vagrant up`
 
+You must have the splunk and ScaleIO files downloaded and in the proper directories as seen [here](images/vagrant-splunk-files.png) until I make this more dynamic.
+
 
 ### Launch Splunk
 After the installation has completed, simply point your web browser to http://192.168.50.21:8000 to login in to Splunk
